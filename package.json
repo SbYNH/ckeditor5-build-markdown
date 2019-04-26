@@ -1,7 +1,7 @@
 {
-  "name": "@jdinabox/ckeditor5-build-markdown",
-  "version": "12.1.1",
-  "description": "A markdown editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@sbynh/ckeditor5-build-markdown-lite",
+  "version": "1.0.0",
+  "description": "A bare essentials markdown editor build of CKEditor 5",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -10,15 +10,7 @@
     "wysiwyg",
     "rich text",
     "editor",
-    "html",
-    "contentEditable",
-    "editing",
-    "operational transformation",
-    "ot",
-    "collaboration",
-    "collaborative",
-    "real-time",
-    "framework"
+    "markdown"
   ],
   "main": "./build/ckeditor.js",
   "files": [
@@ -28,22 +20,16 @@
     "@ckeditor/ckeditor5-adapter-ckfinder": "^11.0.1",
     "@ckeditor/ckeditor5-autoformat": "^11.0.1",
     "@ckeditor/ckeditor5-basic-styles": "^11.1.0",
-    "@ckeditor/ckeditor5-block-quote": "^11.0.1",
-    "@ckeditor/ckeditor5-ckfinder": "^11.0.1",
     "@ckeditor/ckeditor5-core": "^12.1.0",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.0",
-    "@ckeditor/ckeditor5-easy-image": "^11.0.1",
     "@ckeditor/ckeditor5-editor-classic": "^12.1.0",
     "@ckeditor/ckeditor5-essentials": "^11.0.1",
     "@ckeditor/ckeditor5-heading": "^11.0.1",
-    "@ckeditor/ckeditor5-image": "^13.0.1",
     "@ckeditor/ckeditor5-link": "^11.0.1",
-    "@ckeditor/ckeditor5-list": "^12.0.1",
     "@ckeditor/ckeditor5-markdown-gfm": "^11.0.1",
     "@ckeditor/ckeditor5-paragraph": "^11.0.1",
     "@ckeditor/ckeditor5-paste-from-office": "^11.0.1",
-    "@ckeditor/ckeditor5-table": "^12.0.1",
     "@ckeditor/ckeditor5-theme-lark": "^13.0.1",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^1.0.11",
@@ -63,10 +49,10 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/JDinABox/ckeditor5-build-markdown/issues",
+  "bugs": "https://github.com/SbYNH/ckeditor5-build-markdown-lite/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JDinABox/ckeditor5-build-markdown.git"
+    "url": "https://github.com/SbYNH/ckeditor5-build-markdown-lite.git"
   },
   "scripts": {
     "build": "webpack --mode production",
