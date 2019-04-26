@@ -1,6 +1,7 @@
 CKEditor 5 lite markdown editor build
 ========================================
 
+Forked from [@jdinabox/ckeditor5-build-markdown](https://github.com/JDinABox/ckeditor5-build-markdown)
 
 Based on the classic editor build for CKEditor 5. Read more about the [classic editor build](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/overview.html#classic-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/classic-editor.html).
 
@@ -20,7 +21,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @jdinabox/ckeditor5-build-markdown
+npm install --save @sbynh/ckeditor5-build-markdown-lite
 ```
 
 And use it in your website:
@@ -29,7 +30,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@jdinabox/ckeditor5-build-markdown/build/ckeditor.js"></script>
+<script src="./node_modules/@sbynh/ckeditor5-build-markdown-lite/build/ckeditor.js"></script>
 <script>
 	LiteMarkdownEditor
 		.create( document.querySelector( '#editor' ) )
@@ -45,10 +46,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import LiteMarkdownEditor from '@jdinabox/ckeditor5-build-markdown';
+import LiteMarkdownEditor from '@sbynh/ckeditor5-build-markdown-lite';
 
 // Or using the CommonJS version:
-// const LiteMarkdownEditor = require( '@jdinabox/ckeditor5-build-markdown' );
+// const LiteMarkdownEditor = require( '@sbynh/ckeditor5-build-markdown-lite' );
 
 LiteMarkdownEditor
 	.create( document.querySelector( '#editor' ) )
