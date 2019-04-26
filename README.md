@@ -1,4 +1,4 @@
-CKEditor 5 markdown editor build
+CKEditor 5 lite markdown editor build
 ========================================
 
 
@@ -31,7 +31,7 @@ And use it in your website:
 </div>
 <script src="./node_modules/@jdinabox/ckeditor5-build-markdown/build/ckeditor.js"></script>
 <script>
-	MarkdownEditor
+	LiteMarkdownEditor
 		.create( document.querySelector( '#editor' ) )
 		.then( editor => {
 			window.editor = editor;
@@ -45,12 +45,12 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import MarkdownEditor from '@jdinabox/ckeditor5-build-markdown';
+import LiteMarkdownEditor from '@jdinabox/ckeditor5-build-markdown';
 
 // Or using the CommonJS version:
-// const MarkdownEditor = require( '@jdinabox/ckeditor5-build-markdown' );
+// const LiteMarkdownEditor = require( '@jdinabox/ckeditor5-build-markdown' );
 
-MarkdownEditor
+LiteMarkdownEditor
 	.create( document.querySelector( '#editor' ) )
 	.then( editor => {
 		window.editor = editor;
